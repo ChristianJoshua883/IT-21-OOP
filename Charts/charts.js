@@ -50,4 +50,5 @@ const CHART_DATA = [12, 19, 3, 5, 2, 3];
     };
 
     const doughnutconst = new Chart(document.getElementById('doughnut'), chartConfig);Chart = new Chart(document.getElementById('doughnut'), chartConfig);
-    
+        
+   
