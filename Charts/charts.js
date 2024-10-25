@@ -1,7 +1,7 @@
-const ctx = document.getElementById('doughnut').getContext('2d');
+const Charts = document.getElementById('doughnut').getContext('2d');
 const doughnut = new Chart(ctx, {
     type: 'doughnut',
-    data: {
+        data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
             label: '# of Votes',
@@ -23,14 +23,6 @@ const doughnut = new Chart(ctx, {
             ],
             borderWidth: 1
         }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
     }
-});
 
-    
+})  
